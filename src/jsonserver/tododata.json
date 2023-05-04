@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "Gowtham Nandan",
+      "Age": "21",
+      "Email": "gowtham.ganta@techigai.io",
+      "Phone": 8985915800
+    },
+    {
+      "id": 2,
+      "Name": "Nandan",
+      "Age": "20",
+      "Email": "venkatgowtham54321@gmail.com",
+      "Phone": 8341915800
+    }
+  ],
+  "todos": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Test my new ",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Learn NextJS",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 3,
+      "title": "Learn Docker",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 4,
+      "title": "Upgrade level in Guitar from Beginner to Moderate",
+      "completed": false
+    },
+    {
+      "userId": "1",
+      "id": 5,
+      "title": "sdfgfd",
+      "completed": false
+    },
+    {
+      "userId": "1",
+      "id": 6,
+      "title": "sdfgvc",
+      "completed": false
+    },
+    {
+      "userId": "1",
+      "id": 7,
+      "title": "fnfmvkof",
+      "completed": false
+    }
+  ]
+}

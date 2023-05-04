@@ -1,0 +1,72 @@
+.profile{
+    height: 80vh;
+    background-color: rgba(240, 240, 240, 0.896);
+}
+.profhead{
+    display: flex;
+    justify-content: center;
+}
+.profhead>h3{
+    text-decoration: underline;
+}
+.profhead>i{
+    cursor: pointer;
+    align-self: center;
+    padding: 5px;
+}
+.table{
+    margin : auto;
+    border-spacing: 0;
+}
+.cell{
+    border-bottom: 0.5px solid grey;
+    padding: 10px 20px;
+}
+.modalcon{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(220, 220, 220, 0.682);
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    transition: all 5s ease-in-out;
+    opacity:1
+}
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: rgb(205, 205, 205) 3px 3px;
+    padding: 10px 50px;
+}
+.efield{
+    text-decoration: underline;
+}
+.modaltable{
+    margin: 20px;
+    border-spacing: 0;
+}
+.input{ 
+    border: 1px solid black;
+    box-shadow: none;
+    width: 100%;
+}
+.button{
+    margin: 15px 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(113, 189, 255);
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}

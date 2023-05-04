@@ -1,0 +1,26 @@
+.home{
+    height: 80vh;
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.896);
+}
+.todotab{
+    margin: 20px auto;
+    border-spacing: 0;
+}
+.thead{
+    margin: 20px;
+    text-align: center;
+    border-bottom: 0.5px solid grey;
+}
+.cell{
+    border-bottom: 0.5px solid grey;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.cell>i{
+    padding-left: 20px
+}
+.trow:hover{
+    background-color: rgb(223, 223, 223);
+}

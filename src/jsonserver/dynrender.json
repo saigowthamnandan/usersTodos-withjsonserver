@@ -1,0 +1,96 @@
+{
+    "data": {
+        "layouts":[
+            {
+                "component" : "div",
+                "className" : "l1",
+                "children" : [
+                    {
+                        "component" : "h3",
+                        "className" : "l1Text",
+                        "children" : "Layout 1"
+                    }
+                ]
+            },
+            {
+                "component" : "div",
+                "className" : "l2",
+                "children" : [
+                    {
+                        "component" : "h3",
+                        "className" : "l2Text",
+                        "children" : "Layout 2"
+                    }
+                ]
+            },
+            {
+                "component" : "div",
+                "className" : "l3",
+                "children" : [
+                    {
+                        "component" : "h3",
+                        "className" : "l3Text",
+                        "children" : "Layout 3"
+                    }
+                ]
+            }
+        ],
+        "forms":{
+            "component" : "form",
+            "className" : "mainForm",
+            "children":[
+                {
+                    "component" : "h3",
+                    "className" : "formHead",
+                    "children" : "Contact details form"
+                },
+                {
+                    "component" : "div",
+                    "className" : "nameDiv",
+                    "children" : "Full name :"
+                },
+                {
+                    "component" : "input",
+                    "className" : "nameInput",
+                    "placeholder" : "Enter your name",
+                    "onChange" : "{(e)=>{}}",
+                    "type": "text"
+                },
+                {
+                    "component" : "div",
+                    "className" : "emailDiv",
+                    "children" : "Email :"
+                },
+                {
+                    "component" : "input",
+                    "className" : "emailInput",
+                    "placeholder" : "Enter your Email",
+                    "type": "text"
+                },
+                {
+                    "component" : "div",
+                    "className" : "phoneDiv",
+                    "children" : "Phoneno :"
+                },
+                {
+                    "component" : "input",
+                    "className" : "phoneInput",
+                    "placeholder" : "Enter your phone number",
+                    "type": "text"
+                },
+                {
+                    "component" : "div",
+                    "className" : "btnSubDiv",
+                    "children" : [
+                        {
+                            "component" : "input",
+                            "className" : "btnSub",
+                            "type" : "button",
+                            "value" : "Submit"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
