@@ -5,7 +5,7 @@ import Profile from './features/todo/profile';
 import Home from './features/todo/home';
 import Todo from './features/todo/todo';
 import { useSelector,useDispatch } from 'react-redux';
-import {setusers,setTodos } from './features/todo/taskSlice';
+import {setusers,setTodos } from '../features/todo/taskSlice';
 
 function App() {
   const [loading, setloading] = useState(false);

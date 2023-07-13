@@ -1,6 +1,6 @@
 import styles from './home.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { setId,setusers,setTodos } from './taskSlice';
+import { setId,setusers,setTodos } from '..todo/taskSlice';
 import { useState, useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 function Home(){
